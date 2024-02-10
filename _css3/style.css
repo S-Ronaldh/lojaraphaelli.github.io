@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: hsla(129, 66%, 92%, 0.5);
+    background-image: url(../_img/back-test.jpg);
+    background-size: 30%;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.interface{
+    width: 1100px;
+    background-color: white;
+    margin: 10px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px 10px 30px 10px;
+}
+
+header h1#logo{
+    font-family: Kaushan Script;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    background-image: url("../_img/back-logo.png");
+    background-repeat:no-repeat;
+    padding: 50px;
+    text-align: center;
+    background-position: 426px;
+}
+
+figure img#img-logo{
+    width: 30%;
+    margin: 40px 350px -40px;
+}
+
+nav#menu{
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    margin: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 340px;
+}
+
+nav#menu li{
+    display: inline-block;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+    background-image: url(../_img/tinta-back-produtos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 30px;
+    /*border-radius: 8px;
+    margin-left: 3px;
+    padding: 4px;
+    margin-top: -200px;
+    transition: all 300ms;
+    border: solid rgb(109, 109, 0) 1px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);*/   
+}
+
+nav#menu li:hover{
+    transition: 300ms;
+    transform: scale(1.5);
+}
+
+hr{
+    border:solid 2px rgb(208, 255, 132);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+
+.fotos figure img{
+    width: 1120px;
+    margin: 20px 0px -50px -50px;
+}
+
+section#destaques h1{
+    font-size: 20pt;
+    color:white;
+    margin: 230px -10px -170px -10px;
+    padding: 15px;
+    background-color: blueviolet;
+
+}
+
+a#produto{
+    display: inline-table;
+    margin-top: 200px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img#produto{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    border: solid white;
+}
+
+img#produto:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    border-color: rgba(104, 104, 104, 0.5);
+}
+
+h2#leg-produto{
+    font-size: 20px;
+}
+
+h3#preco{
+    font-family: Bebas Neue;
+    font-size: 20pt;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+footer#rodape a#social{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18pt;
+    color: rgb(194, 194, 194);
+    transition: all 500ms;
+}
+
+footer#rodape a#social:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    font-size: 20pt;
+}
+
+footer#rodape{
+    background-color: rgb(45, 45, 45);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0px -8px -8px -8px;
+}
+
